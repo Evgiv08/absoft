@@ -187,14 +187,16 @@ header .header-menu {
 }
 
 header .header-menu h1 {
+  font-family: Lato;
+  font-size: 52px;
+  line-height: 64px;
+  color: #fff;
   max-width: 910px;
   text-align: center;
   margin: 0 auto;
-  color: #ffffff;
-  font-family: Lato;
-  font-size: 52px;
   font-weight: 700;
-  line-height: 64px;
+  position: relative;
+  z-index: 1;
 }
 
 header .header-menu .header-man {
@@ -397,6 +399,10 @@ header .header-menu .sm-circle a:hover img {
 }
 
 header .header-menu .sm-circle button {
+  font-family: Lato;
+  font-size: 24px;
+  line-height: 60px;
+  color: #fff;
   position: absolute;
   top: 130px;
   left: 20px;
@@ -410,11 +416,7 @@ header .header-menu .sm-circle button {
   -webkit-border-radius: 4px;
   border-radius: 4px;
   background-color: #ff8800;
-  color: #ffffff;
-  font-family: Lato;
-  font-size: 24px;
   font-weight: 400;
-  line-height: 60px;
 }
 
 .design {
@@ -434,13 +436,13 @@ header .header-menu .sm-circle button {
 }
 
 .design h3 {
-  width: 50%;
-  position: relative;
-  color: #0073ae;
   font-family: Lato;
   font-size: 34px;
-  font-weight: 300;
   line-height: 42px;
+  color: #0073ae;
+  width: 50%;
+  position: relative;
+  font-weight: 300;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 109px 0 0 0;
@@ -469,12 +471,12 @@ header .header-menu .sm-circle button {
 }
 
 .design p {
-  width: 50%;
-  color: #585858;
   font-family: Lato;
   font-size: 18px;
-  font-weight: 300;
   line-height: 23px;
+  color: #585858;
+  width: 50%;
+  font-weight: 300;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 100px 66px 100px;
@@ -513,6 +515,7 @@ header .header-menu .sm-circle button {
 }
 
 .price {
+  min-width: 980px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -536,17 +539,17 @@ header .header-menu .sm-circle button {
 }
 
 .price > div h3 {
+  font-family: Lato;
+  font-size: 24px;
+  line-height: 95px;
+  color: #585858;
   width: 313px;
   height: 100px;
   -webkit-border-radius: 6px 6px 0 0;
   border-radius: 6px 6px 0 0;
   background-color: #f8f8f8;
   text-align: center;
-  color: #585858;
-  font-family: "Lato";
-  font-size: 24px;
   font-weight: 900;
-  line-height: 95px;
   text-transform: uppercase;
   letter-spacing: 0.24px;
 }
@@ -558,13 +561,13 @@ header .header-menu .sm-circle button {
 }
 
 .price > div ul li {
-  width: 271px;
-  height: 50px;
-  color: #585858;
   font-family: Lato;
   font-size: 14px;
-  font-weight: 400;
   line-height: 16px;
+  color: #585858;
+  width: 271px;
+  height: 50px;
+  font-weight: 400;
   padding: 10px 0 7px 20px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -614,6 +617,10 @@ header .header-menu .sm-circle button {
 }
 
 .price .premium h3:before {
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 32px;
+  color: #fff;
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
@@ -630,10 +637,7 @@ header .header-menu .sm-circle button {
   -webkit-border-radius: 6px 6px 0 0;
   border-radius: 6px 6px 0 0;
   background-color: #61afe5;
-  font-family: Lato;
-  font-size: 13px;
   font-weight: 400;
-  line-height: 32.06px;
   text-transform: uppercase;
 }
 
@@ -649,11 +653,11 @@ header .header-menu .sm-circle button {
 }
 
 .see-more button {
-  color: #0073ae;
   font-family: Lato;
   font-size: 16px;
-  font-weight: 700;
   line-height: 72px;
+  color: #0073ae;
+  font-weight: 700;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -715,16 +719,16 @@ header .header-menu .sm-circle button {
   }
 
   header .header-menu .btn-mob button {
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
     width: 135px;
     height: 47px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
     background-color: #ff8800;
-    color: #ffffff;
-    font-family: Lato;
-    font-size: 18px;
     font-weight: 300;
-    line-height: 16px;
     border: none;
     margin-right: 20px;
     cursor: pointer;
@@ -772,12 +776,12 @@ header .header-menu .sm-circle button {
   }
 
   .design-slider .slide div h3 {
-    width: 50%;
-    color: #585858;
     font-family: Lato;
     font-size: 15px;
-    font-weight: 400;
     line-height: 24px;
+    color: #585858;
+    width: 50%;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.45px;
     margin-top: 30px;
@@ -801,12 +805,12 @@ header .header-menu .sm-circle button {
   }
 
   .design-slider .slide div p {
-    width: 80%;
-    color: #585858;
     font-family: Lato;
     font-size: 16px;
-    font-weight: 400;
     line-height: 22px;
+    color: #585858;
+    width: 80%;
+    font-weight: 400;
     margin-bottom: 40px;
   }
 
@@ -847,6 +851,10 @@ header .header-menu .sm-circle button {
   }
 
   .price-mob > div:nth-child(2):before {
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 26px;
+    color: #fff;
     content: "Best value";
     position: absolute;
     left: 0;
@@ -857,20 +865,16 @@ header .header-menu .sm-circle button {
     background-color: #60aeea;
     -webkit-border-radius: 6px;
     border-radius: 6px;
-    color: #ffffff;
-    font-family: Lato;
-    font-size: 13px;
     font-weight: 700;
-    line-height: 26.38px;
     text-transform: uppercase;
   }
 
   .price-mob > div h3 {
-    color: #ffffff;
     font-family: Lato;
     font-size: 24px;
-    font-weight: 700;
     line-height: 32px;
+    color: #fff;
+    font-weight: 700;
     text-transform: uppercase;
     padding: 21px 30px;
     border-bottom: 1px solid #4394c0;
@@ -883,11 +887,11 @@ header .header-menu .sm-circle button {
   }
 
   .price-mob > div ul li {
-    color: #ffffff;
     font-family: Lato;
     font-size: 14px;
-    font-weight: 400;
     line-height: 16px;
+    color: #fff;
+    font-weight: 400;
     padding: 10px 32px 10px 25px;
     position: relative;
     text-align: left;
@@ -907,13 +911,13 @@ header .header-menu .sm-circle button {
   }
 
   .price-mob > div button {
-    background-color: transparent;
-    border: none;
-    color: #ffffff;
     font-family: Lato;
     font-size: 12px;
-    font-weight: 400;
     line-height: 32px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: -0.18px;
     cursor: pointer;
